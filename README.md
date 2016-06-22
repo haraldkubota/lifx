@@ -31,4 +31,5 @@ life --id "No2" --color --hue 0 --saturation 80 --brightness 80 --duration 2000 
 
 ## Some history
 
-There's some history behind this project. For those who are curious, here my [blog](http://harald.studiokubota.com/wordpress/index.php/2016/04/30/my-lifx-bulbs-resurrected/) entry about this.
+There's some history behind this project.
+For those who are curious, here my [blog](http://harald.studiokubota.com/wordpress/index.php/2016/04/30/my-lifx-bulbs-resurrected/) entry about it.
