@@ -9,8 +9,8 @@ alias lifx="node lifxctl.js"
 
 lifx --id "No1" --cmd on
 lifx --id "No1" --cmd off --duration 2000
-life --id "No2" --color --hue 0 --saturation 80 --brightness 80
-life --id "No2" --color --hue 0 --saturation 80 --brightness 80 --duration 2000 --debug --timeout 5000
+life --id "No2" ---cmd on -color --hue 0 --saturation 80 --brightness 80
+life --id "No2" --cmd on --color --hue 0 --saturation 80 --brightness 80 --duration 2000 --debug --timeout 5000
 ```
 
 ## Optional parmeters
@@ -29,7 +29,4 @@ life --id "No2" --color --hue 0 --saturation 80 --brightness 80 --duration 2000 
 * 10: Error while doing getState()
 * 20: Syntax error
 
-## Some history
 
-There's some history behind this project.
-For those who are curious, here my [blog](http://harald.studiokubota.com/wordpress/index.php/2016/04/30/my-lifx-bulbs-resurrected/) entry about it.
