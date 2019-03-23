@@ -1,5 +1,3 @@
-'use strict';
-
 /*
 Command line tool
 lifx --id LAMPID --cmd on|off|... more lamp-name command parameter1 parameter2...
@@ -9,8 +7,8 @@ Git: https://github.com/haraldkubota/lifx
 
 */
 
-var argv = require('minimist')(process.argv.slice(2));
-var LifxClient = require('node-lifx').Client;
+const argv = require('minimist')(process.argv.slice(2));
+const LifxClient = require('node-lifx').Client;
 var client = new LifxClient();
 
 // Check minimum options and syntax in general

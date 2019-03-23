@@ -1,4 +1,4 @@
-# lifx
+# lifxctl
 
 Control lifx lamps via node.js
 
@@ -9,8 +9,8 @@ alias lifx="node lifxctl.js"
 
 lifx --id "No1" --cmd on
 lifx --id "No1" --cmd off --duration 2000
-life --id "No2" --cmd on -color --hue 0 --saturation 80 --brightness 80
-life --id "No2" --cmd on --color --hue 0 --saturation 80 --brightness 80 --duration 2000 --debug --timeout 5000
+lifx --id "No2" --cmd on -color --hue 0 --saturation 80 --brightness 80
+lifx --id "No2" --cmd on --color --hue 0 --saturation 80 --brightness 80 --duration 2000 --debug --timeout 5000
 ```
 
 ## Optional parmeters
